@@ -1,0 +1,17 @@
+{
+    "env": {
+        "node": true,
+        "mocha": true
+    },
+    "extends": [
+        "plugin:mocha/recommended",
+        "semistandard"
+    ],
+    "rules": {
+        // These configuration settings are provided for reference in the context of a demo, and do not adhere to the conventions of a typical JavaScript project.
+        "indent": ["error", 4, { "SwitchCase": 1 }],
+        "mocha/no-hooks-for-single-case": "off",
+        "mocha/no-skipped-tests": "off",
+        "no-undef": "off"
+    }
+}
